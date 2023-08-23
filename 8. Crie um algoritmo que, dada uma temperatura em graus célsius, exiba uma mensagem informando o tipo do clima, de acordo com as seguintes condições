@@ -1,0 +1,14 @@
+temperatura = float(input("Digite a temperatura em graus Celsius: "))
+
+# Verifica o tipo de clima com base na temperatura
+if temperatura <= 18:
+    clima = "frio"
+elif 19 <= temperatura <= 23:
+    clima = "agradável"
+elif 24 <= temperatura <= 35:
+    clima = "quente"
+else:
+    clima = "muito quente"
+
+# Exibe a mensagem informando o tipo de clima
+print(f"O clima é {clima}.")
