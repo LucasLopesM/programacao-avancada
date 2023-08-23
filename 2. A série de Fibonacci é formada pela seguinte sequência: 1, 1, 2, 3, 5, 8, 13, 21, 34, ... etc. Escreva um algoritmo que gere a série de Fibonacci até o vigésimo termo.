@@ -1,0 +1,10 @@
+num_termos = 20
+termo1 = 1
+termo2 = 1
+print(termo1)
+print(termo2)
+for _ in range(2, num_termos):
+proximo_termo = termo1 + termo2
+print(proximo_termo)
+termo1 = termo2
+termo2 = proximo_termo
