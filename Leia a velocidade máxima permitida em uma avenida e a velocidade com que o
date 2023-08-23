@@ -1,0 +1,16 @@
+velocidade_maxima = int(input("Digite a velocidade máxima permitida
+(em km/h): "))
+velocidade_motorista = int(input("Digite a velocidade do motorista
+(em km/h): "))
+# Calcula a diferença entre a velocidade do motorista e a
+velocidade máxima permitida
+diferenca_velocidade = velocidade_motorista - velocidade_maxima
+# Calcula o valor da multa com base nas condições fornecidas
+if diferenca_velocidade <= 10:
+multa = 50
+elif diferenca_velocidade <= 30:
+multa = 100
+else:
+multa = 200
+# Exibe o valor da multa
+print(f"O motorista receberá uma multa de R$ {multa}.")
