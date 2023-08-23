@@ -1,0 +1,13 @@
+maior_valor = float('-inf') # Inicializado com o menor valor
+possível
+menor_valor = float('inf') # Inicializado com o maior valor
+possível
+# Loop para ler os 20 números
+for _ in range(20):
+numero = int(input("Digite um número inteiro: "))
+if numero > maior_valor:
+maior_valor = numero
+if numero < menor_valor:
+menor_valor = numero
+print(f"O maior valor fornecido é: {maior_valor}")
+print(f"O menor valor fornecido é: {menor_valor}")
